@@ -35,9 +35,8 @@ $.ajax({
 //Add image in the placeholder
 var generateImg = function (data) {
     if(data.data) {
-      len = data.data.length,
-      min = data.data[0].images.length - 1;
-    }
+    var len = data.data.length,
+    min = data.data[0].images.length - 1,
 	image_stack = '',
 	small_image_url,
 	big_image_url;
