@@ -1,0 +1,4 @@
+*.pyc
+cmsplugin_fbalbumlight.egg-info/*
+build/*
+dist/*

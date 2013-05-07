@@ -1,4 +1,5 @@
 MANIFEST.in
+setup.cfg
 setup.py
 cmsplugin_fbalbumlight/__init__.py
 cmsplugin_fbalbumlight/cms_plugins.py
@@ -7,7 +8,6 @@ cmsplugin_fbalbumlight.egg-info/PKG-INFO
 cmsplugin_fbalbumlight.egg-info/SOURCES.txt
 cmsplugin_fbalbumlight.egg-info/dependency_links.txt
 cmsplugin_fbalbumlight.egg-info/not-zip-safe
-cmsplugin_fbalbumlight.egg-info/requires.txt
 cmsplugin_fbalbumlight.egg-info/top_level.txt
 cmsplugin_fbalbumlight/static/cms_plugins/css/colorbox.css
 cmsplugin_fbalbumlight/static/cms_plugins/img/border.png
