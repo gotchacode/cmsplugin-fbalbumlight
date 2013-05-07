@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.3'
+version = '1.5'
 
 setup(
     name='cmsplugin-fbalbumlight',
@@ -12,8 +12,4 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
-    install_requires=[
-        'Django>=1.2',
-        'django-cms',
-    ],
 )
