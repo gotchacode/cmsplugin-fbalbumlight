@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.6'
+version = '1.9'
 
 setup(
     name='cmsplugin-fbalbumlight',

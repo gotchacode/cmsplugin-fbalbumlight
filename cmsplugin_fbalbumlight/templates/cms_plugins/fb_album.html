@@ -18,11 +18,12 @@ var album_url = '{{ object.album_url }}',
 
   $(document).ready(function () {
     // Ajax Request to Facebook Graph API
-    var req_url = 'https://graph.facebook.com/' + uid +' /photos'+'?access_token=' + access_token;
+    var req_url = 'https://graph.facebook.com/'+uid+'/photos'+'?access_token=' +access_token;
 
     $.ajax({
       type: "GET",
       url: req_url,
+      dataType:'json',
       success: function(res) {
        generateImg(res);
       },
@@ -32,8 +33,8 @@ var album_url = '{{ object.album_url }}',
     });
 
   //Add image in the placeholder
-  var generateImg = function (data) {
-    if(data.data) {
+  var generateImg = function (res) {
+      var data = res;
       var len = data.data.length,
       min = data.data[0].images.length - 1,
       image_stack = '',
